@@ -1,26 +1,215 @@
-<!doctype html>
+<<!doctype html>
 <html class="" lang="en">
 
   <head>
     <meta charset="utf-8">
-
-    <title>Week 6, Part 1</title>
-
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Collagen Water: Vital Proteins</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="http://sariram.me/sr_favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+              <img src="./images/logo.png" alt="Califia Logo" width="200">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="https://www.vitalproteins.com/collections/collagen-water">Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://www.vitalproteins.com/collections/best-sellers">Best Sellers</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://www.vitalproteins.com/products/matcha-collagen-2">Top Rated: Matcha</a></li>
+      <li class="nav-item"><a class="nav-link" href="#new">New Offerings</a></li></ul></div>
+  </nav>
+  </div>
 
-    <h1>Week 6, Part 1</h1>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Vital Proteins:</h1>
+        <h3 class="display-4">Wellness begins with collagen</h3>
+        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">See Jen's Favorite Drinks</button>
+        <!-- Modal Thank you to Dinah Brito for the code reference !!! s-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="exampleModalCenterTitle">Jen's Favorites</h4>
+<button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+</button>
+</div>
+<div class="modal-body">
+<!-- Javascript Section -->
+<div class="row">
+<div class="col-sm">
+<span onclick="changeImage('./images/3.png')">Collagen Creamer</span>
+</div>
+<div class="col-sm">
+<span onclick="changeImage('./images/2.png')">Immune Booster</span>
+</div>
+<div class="col-sm">
+<span onclick="changeImage('./images/1.png')">Peptides</span>
+</div>
+</div>
+<img id="collagenpeptide" src="./images/1.png" alt="Collagen" />
+<!-- End javascript section -->
+</div>
+<div class="modal-footer">
+<button type="button" class="btn" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!-- End Modal -->
+      </div>
+    </div>
 
-	</body>
+    <div class="container">
+      <h1 class="row" id="new">New Offerings: Seasonal Flavors</h1>
+    </div>
+  <div class="container featurette"> <!-- Start Featurette Container -->
+
+    <!-- Start Featurette -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Peach White Tea</h2>
+                <p class="lead">Enjoy an endless summer, courtesy of the Peach White Tea Collagen Water. It contains 10g of collagen and 3 g of sugar per serving. It is refreshingly peachy, ripe and ready for sipping.</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Benefits</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+10g of Collagen: Digested and absorbed by the body quickly for maximum benefits.
+ 3g of Sugar: No artificial flavors, colors or additives. Gluten free & dairy free.
+ Ready to Drink: We’re officially grab-and-go to make your life just a little bit easier. All of the benefits, on-the-go.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="./images/peach.jpg" alt="Peach Flavor">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Blackberry Hibiscus</h2>
+                <p class="lead">A hydrating tropical pairing that lets you escape anytime, anywhere. Each serving contains 10g of collagen and 3g of sugar. Take a light dip into blackberry hibiscus refreshment.</p>
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
+
+                <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Benefits</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                10g of Collagen: Digested and absorbed by the body quickly for maximum benefits.
+                 3g of Sugar: No artificial flavors, colors or additives. Gluten free & dairy free.
+                 Ready to Drink: We’re officially grab-and-go to make your life just a little bit easier. All of the benefits, on-the-go.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 order-md-1.5">
+                <img class="featurette-image img-fluid mx-auto" src="./images/blackberry.jpg" alt="Blackberry Flavor">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Strawberry Lemon</h2>
+                <p class="lead">Let the sunlight in with our Strawberry Lemon Collagen Water™, a delicious twist on wellness. Each serving contains 10g of collagen and 3g of sugar. All you need to do is open and sip.</p>
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Benefits</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                10g of Collagen: Digested and absorbed by the body quickly for maximum benefits.
+                 3g of Sugar: No artificial flavors, colors or additives. Gluten free & dairy free.
+                 Ready to Drink: We’re officially grab-and-go to make your life just a little bit easier. All of the benefits, on-the-go.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="./images/strawberry.jpg" alt="Strawberry Flavor">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+</div>
+
+    <footer class="container py-20"
+            <h1 class="display-4"></h1>
+            <p class="lead">Learn more about Vital Proteins and subscribe to stay updated. </p>
+              <ul class="list-unstyled">
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/our-story">Our Story</a></li>
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/careers">Careers</a></li>
+                <li><a class="text-muted" href="https://wholesale.vitalproteins.com/">Wholesale</a></li>
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/affiliates">Affiliate Program</a></li>
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/returns">Returns</a></li>
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/privacy-policy">Privacy Policy</a></li>
+                <li><a class="text-muted" href="https://www.vitalproteins.com/pages/faq">FAQs</a></li>
+              </ul>
+            </div>
+            <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Subscribe to Vital Proteins Newsletter</label>
+                <input type="email" class="form-control" id="" placeholder="Email">
+            </div>
+              <button type="submit" class="btn">Submit</button>
+          </form>
+          </div>
+        </footer>
+
+    <!-- Start Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- End Scripts -->
+
+  </body>
 
 </html>
