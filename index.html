@@ -14,7 +14,7 @@
   <body>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-              <img src="./images/logo.png" alt="Califia Logo" width="200">
+      <img src="./images/logo.png" alt="logo" width="200">
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
       <ul class="navbar-nav mr-auto">
       <li class="nav-item"><a class="nav-link" href="https://www.vitalproteins.com/collections/collagen-water">Products</a></li>
@@ -24,67 +24,62 @@
   </nav>
   </div>
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
         <h1 class="display-4">Vital Proteins:</h1>
         <h3 class="display-4">Wellness begins with collagen</h3>
         <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">See Jen's Favorite Drinks</button>
-        <!-- Modal Thank you to Dinah Brito for the code reference !!! s-->
+
+        <!-- Modal Thank you to Dinah Brito for the button inspo & code reference !!! -->
+
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" id="exampleModalCenterTitle">Jen's Favorites</h4>
-<button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
-</button>
-</div>
-<div class="modal-body">
-<!-- Javascript Section -->
-<div class="row">
-<div class="col-sm">
-<span onclick="changeImage('./images/3.png')">Collagen Creamer</span>
-</div>
-<div class="col-sm">
-<span onclick="changeImage('./images/2.png')">Immune Booster</span>
-</div>
-<div class="col-sm">
-<span onclick="changeImage('./images/1.png')">Peptides</span>
-</div>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalCenterTitle">Jen's Favorites</h4>
+            <button type="button" class="close btn" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      <div class="row">
+  <div class="col-sm">
+    <span onclick="changeImage('./images/3.png')">Collagen Creamer</span>
+  </div>
+  <div class="col-sm">
+    <span onclick="changeImage('./images/2.png')">Immune Booster</span>
+  </div>
+  <div class="col-sm">
+    <span onclick="changeImage('./images/1.png')">Peptides</span>
+  </div>
 </div>
 <img id="collagenpeptide" src="./images/1.png" alt="Collagen" />
-<!-- End javascript section -->
 </div>
 <div class="modal-footer">
-<button type="button" class="btn" data-dismiss="modal">Close</button>
+  <button type="button" class="btn" data-dismiss="modal">Home</button>
 </div>
 </div>
 </div>
 </div>
 <!-- End Modal -->
-      </div>
-    </div>
+</div>
+</div>
 
-    <div class="container">
-      <h1 class="row" id="new">New Offerings: Seasonal Drink Flavors</h1>
-    </div>
-  <div class="container featurette"> <!-- Start Featurette Container -->
+<div class="container">
+    <h1 class="row" id="new">New Offerings: Seasonal Drink Flavors</h1>
+</div>
 
-    <!-- Start Featurette -->
-
-            <hr class="featurette-divider">
-
+<div class="container featurette">
+  <hr class="featurette-divider">
             <div class="row featurette">
               <div class="col-md-7">
-                <h2 class="featurette-heading">Peach White Tea</h2>
+                <h2 class="featurette-title">Peach White Tea</h2>
                 <p class="lead">Enjoy an endless summer, courtesy of the Peach White Tea Collagen Water. It contains 10g of collagen and 3 g of sugar per serving. It is refreshingly peachy, ripe and ready for sipping.</p>
-                <!-- Button trigger modal -->
-<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
 
+<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Benefits</h5>
+        <h3 class="modal-title" id="exampleModalLabel">Benefits</h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -101,25 +96,24 @@
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="./images/peach.jpg" alt="Peach Flavor">
-              </div>
-            </div>
+</div>
 
-            <hr class="featurette-divider">
+      <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="./images/peach.jpg" alt="Peach Flavor">
+      </div>
+    </div>
 
+<hr class="featurette-divider">
             <div class="row featurette">
               <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Blackberry Hibiscus</h2>
+                <h2 class="featurette-title">Blackberry Hibiscus</h2>
                 <p class="lead">A hydrating tropical pairing that lets you escape anytime, anywhere. Each serving contains 10g of collagen and 3g of sugar. Take a light dip into blackberry hibiscus refreshment.</p>
                 <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
-
                 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5>Benefits</h5>
+                        <h3>Benefits</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -146,22 +140,22 @@
 
             <div class="row featurette">
               <div class="col-md-7">
-                <h2 class="featurette-heading">Strawberry Lemon</h2>
+                <h2 class="featurette-title">Strawberry Lemon</h2>
                 <p class="lead">Let the sunlight in with our Strawberry Lemon Collagen Water™, a delicious twist on wellness. Each serving contains 10g of collagen and 3g of sugar. All you need to do is open and sip.</p>
                 <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> View Benefits</button>
                 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5>Benefits</h5>
+                        <h3>Benefits</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
                 10g of Collagen: Digested and absorbed by the body quickly for maximum benefits.
-                 3g of Sugar: No artificial flavors, colors or additives. Gluten free & dairy free.
-                 Ready to Drink: We’re officially grab-and-go to make your life just a little bit easier. All of the benefits, on-the-go.
+                3g of Sugar: No artificial flavors, colors or additives. Gluten free & dairy free.
+                Ready to Drink: We’re officially grab-and-go to make your life just a little bit easier. All of the benefits, on-the-go.
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -175,10 +169,24 @@
                 <img class="featurette-image img-fluid mx-auto" src="./images/strawberry.jpg" alt="Strawberry Flavor">
               </div>
             </div>
-
             <hr class="featurette-divider">
-
 </div>
+
+<!-- FOOTER -->
+<footer class="container">
+  <h4>Learn More</h4>
+  <ul class="list-unstyled">
+    <li><a href="https://www.vitalproteins.com/pages/our-story">Our Story</a></li>
+    <li><a href="https://www.vitalproteins.com/pages/careers">Careers</a></li>
+    <li><a href="https://www.vitalproteins.com/pages/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.vitalproteins.com/pages/affiliates">Affiliate Program</a></li>
+    <li><a href="https://wholesale.vitalproteins.com/">Wholesale</a></li>
+    <li><a href="https://www.vitalproteins.com/collections/the-big-scoop">The Big Scoop</a></li>
+  </ul>
+</div>
+  <p> Content & images courtesy of Vital Proteins. </p>
+</footer>
+</main>
 
     <!-- Start Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -186,6 +194,6 @@
     <script src="js/scripts.js"></script>
     <!-- End Scripts -->
 
-  </body>
+</body>
 
 </html>

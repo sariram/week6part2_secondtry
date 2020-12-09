@@ -17,8 +17,13 @@ h3 {
   color: white
 }
 
+h4 {
+  font-size: 1.5em;
+  color: black;
+}
+
 p {
-  font-size: 2em;
+  font-size: 1em;
   color: black
 }
 
@@ -33,13 +38,24 @@ p {
       -webkit-border-radius: 10px;
   }
 
+.btn.secondary {
+  color: #fff;
+  background-color: #533A2E;
+  border-color: #533A2E;
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  }
+
 .jumbotron {
   background-image: url("../images/jen.png");
   background-position: center;
   background-size: cover;
   position: relative;
   height: 100%;
-  padding-top: 500px; }
+  padding-top: 400px; }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -47,16 +63,11 @@ p {
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #FF5733;
-  border-bottom: 5px solid #FF5733;
-  font-weight: bold; }
+  border-bottom: 8px solid #FF5733; }
 
-.featurette-heading {
+.featurette-title {
   font-weight: 300;
-  line-height: 1; }
-
-form {
-  padding-top: 20px;
-  padding-bottom: 20px}
+  padding-top: 20px; }
 
 span {
   text-decoration: underline; }
